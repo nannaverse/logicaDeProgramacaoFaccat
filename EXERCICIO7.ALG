@@ -18,7 +18,7 @@ Inicio
    Leia (meses)
    Escreva ("Digite os dias: ")
    Leia (dias)
-   total<- (anos*365)+ (meses*12)+ (dias*30)
+   total<- (anos * 365) + (meses * 30) + dias
    Escreva ("A sua idade em dias é: ", total)
 
 Fimalgoritmo
