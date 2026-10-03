@@ -1,33 +1,33 @@
-Algoritmo "ExercÌcio11"
-// Disciplina   : [LÛgica de ProgramaÁ„o em JavaScript]
+Algoritmo "Exerc√≠cio11"
+// Disciplina   : [L√≥gica de Programa√ß√£o em JavaScript]
 // Professor   : Jailson Santos
-// DescriÁ„o   : Uma revendedora de carros usados paga a seus funcion·rios
-// vendedores um sal·rio fixo por mÍs, mais uma comiss„o tambÈm fixa para
+// Descri√ß√£o   : Uma revendedora de carros usados paga a seus funcion√°rios
+// vendedores um sal√°rio fixo por m√™s, mais uma comiss√£o tamb√©m fixa para
 // cada carro vendido e mais 5% do valor das vendas por ele efetuadas.
-// Escrever um algoritmo que leia o n˙mero de carros por ele vendidos,
-// o valor total de suas vendas, o sal·rio fixo e o valor que ele recebe
-// por carro vendido. Calcule e escreva o sal·rio final do vendedor
+// Escrever um algoritmo que leia o n√∫mero de carros por ele vendidos,
+// o valor total de suas vendas, o sal√°rio fixo e o valor que ele recebe
+// por carro vendido. Calcule e escreva o sal√°rio final do vendedor
 // Autor(a)    : Giovanna Savoretti
 // Data atual  : 03/09/2026
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
-   salariofixo, comissao, cvendas, totalvendas, salariofinal: real
-   comissaofinal, comissaoper: real
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
+   salarioFixo, comissao, carroVendas, totalVendas, salarioFinal: real
+   comissaoFinal, comissaoPercentual: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval ("Digite o seu sal·rio mensal: ")
-   Leia (salariofixo)
-   Escreval ("Digite a sua comiss„o por carro vendido: ")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval ("Digite o seu sal√°rio mensal: ")
+   Leia (salarioFixo)
+   Escreval ("Digite a sua comiss√£o por carro vendido: ")
    Leia (comissao)
    Escreval ("Digite o total de carros vendidos: ")
-   Leia (cvendas)
-   Escreval ("Digite o valor total de suas vendas no mÍs: ")
-   Leia (totalvendas)
-   comissaofinal<- comissao*cvendas
-   comissaoper<- totalvendas*0.05
-   salariofinal<- salariofixo+comissaofinal+comissaoper
+   Leia (carroVendas)
+   Escreval ("Digite o valor total de suas vendas no m√™s: ")
+   Leia (totalVendas)
+   comissaoFinal <- comissao * carroVendas
+   comissaoPercentual <- totalVendas * 0.05
+   salarioFinal <- salarioFixo + comissaoFinal + comissaoPercentual
 
-   Escreval ("O seu sal·rio È: ", salariofinal)
+   Escreval ("O seu sal√°rio √©: ", salarioFinal)
 
 Fimalgoritmo
