@@ -42,7 +42,7 @@ Inicio
    Fimse
 
    soma <- maisVelho + maisNova
-   multiplicacao <- maisVelha * maisNova
+   multiplicacao <- maisVelha * maisNovo
    
    Escreval ("A soma do homem mais velho para a mulher mais nova é: ", soma)
    Escreval ("")
