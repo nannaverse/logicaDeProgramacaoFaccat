@@ -1,20 +1,22 @@
-Algoritmo "Exercício12"
-// Disciplina   : [Lógica de Programação em JavaScript]
+Algoritmo "ExercÃ­cio12"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o em JavaScript]
 // Professor   : Jailsom Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Escreva um algoritmo para ler uma temperatura em graus
+// Fahrenheit, calcular e escrever o valor correspondente em graus Celsius
+// (baseado na fÃ³rmula abaixo):
 // Autor(a)    :Giovanna Savoretti
 // Data atual  : 04/09/2026
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    fahrenheit: real
    celsius: real
    c: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval ("Digite a temperatura em Fahrenheit: ")
    leia (fahrenheit)
    celsius <- (fahrenheit - 32) * 5 / 9
-   Escreval ("O valor em Celsius é: ", celsius, "ºC")
+   Escreval ("O valor em Celsius Ã©: ", celsius, "ÂºC")
 
 Fimalgoritmo
