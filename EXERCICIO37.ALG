@@ -1,28 +1,28 @@
 Algoritmo "Exercicio37"
-// Disciplina   : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina   : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Santos
-// DescriÁ„o   : Uma fruteira est· vendendo frutas com a seguinte tabela
-// de preÁos:
-//AtÈ 5 Kg Acima de 5 Kg
+// Descri√ß√£o   : Uma fruteira est√° vendendo frutas com a seguinte tabela
+// de pre√ßos:
+//At√© 5 Kg Acima de 5 Kg
 // Morango R$ 2,50 por Kg R$ 2,20 por Kg
-// MaÁ„ R$ 1,80 por Kg R$ 1,50 por Kg
+// Ma√ß√£ R$ 1,80 por Kg R$ 1,50 por Kg
 //Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra
-//ultrapassar R$ 25,00, receber·ainda um desconto de 10% sobre este total.
+//ultrapassar R$ 25,00, receber√°ainda um desconto de 10% sobre este total.
 // Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a
-// quantidade (em Kg) de maÁas adquiridas e escreva o valor a ser pago pelo
+// quantidade (em Kg) de ma√ßas adquiridas e escreva o valor a ser pago pelo
 // cliente
 // Autor(a)    : Giovanna Savoretti
 // Data atual  : 14/09/2026
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
-   morangos, macas, valorkg: inteiro
-   precomorangos, precomacas, valorreal, contafinal: real
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
+   morangos, macas, valorKg: inteiro
+   precoMorangos, precoMacas, valorReal, contaFinal: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval ("Digite a quantidade em Kg de morangos: ")
    Leia (morangos)
-   Escreval ("Digite a quantidade em Kg de maÁ„s: ")
+   Escreval ("Digite a quantidade em Kg de ma√ß√£s: ")
    Leia (macas)
 
    Se (morangos <= 5) entao
@@ -31,20 +31,27 @@ Inicio
       precomorangos <- 2.20 * morangos
    Fimse
 
-   Se (macas <= 5) entao
-      precomacas <- 1.80 * macas
+   Se (morangos <= 5) entao
+      precoMorangos <- 2.50 * morangos
    Senao
-      precomacas <- 1.50 * macas
+      precoMorangos <- 2.20 * morangos
    Fimse
 
-   valorkg <- morangos + macas
-   valorreal <- precomorangos + precomacas
+   Se (macas <= 5) entao
+      precoMacas <- 1.80 * macas
+   Senao
+      precoMacas <- 1.50 * macas
+   Fimse
+
+   valorKg <- morangos + macas
+   valorReal <- precoMorangos + precoMacas
+   contaFinal <- valorReal
 
    Se (valorkg > 8) ou (valorreal > 25) entao
-      contafinal <- valorreal -(valorreal * 0.10)
+      contaFinal <- valorReal -(valorReal * 0.10)
    Fimse
 
    Escreval ("")
-   Escreval ("O total a ser pago È: ", contafinal)
+   Escreval ("O total a ser pago √©: ", contaFinal)
 
 Fimalgoritmo
