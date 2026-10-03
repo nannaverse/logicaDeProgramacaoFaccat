@@ -6,7 +6,7 @@ Algoritmo "Exercicio10"
 // custo de fábrica). Supondo que o percentual do distribuidor seja de 28% e
 // os impostos de 45%, escrever um algoritmo para ler o custo de fábrica
 //de um carro, calcular e escrever o custo final ao consumidor.
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Giovanna Savoretti
 // Data atual  : 03/09/2026
 Var
 // Seção de Declarações das variáveis 
