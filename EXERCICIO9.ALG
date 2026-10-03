@@ -18,7 +18,7 @@ Inicio
    Leia (salario)
    Escreva ("Digite o percentual de reajuste: ")
    Leia (percentual)
-   salarioNovo <- (salario * percentual) + salario
+   salarioNovo <- salario + (salario * (percentual / 100))
    Escreval ("O seu novo salário é: ", salarioNovo)
 
 Fimalgoritmo
