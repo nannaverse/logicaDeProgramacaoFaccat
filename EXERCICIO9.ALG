@@ -1,23 +1,24 @@
 Algoritmo "Exercicio9"
-// Disciplina   :  LÛgica de programaÁ„o com JavaScript
+// Disciplina   :  L√≥gica de programa√ß√£o com JavaScript
 // Professor   : Jailson Costa
-// DescriÁ„o   : Escreva um algoritmo para ler o sal·rio mensal atual de um
-// funcion·rio e o percentual de reajuste. Calcular e escrever o valor do novo
-// sal·rio.
+// Descri√ß√£o   : Escreva um algoritmo para ler o sal√°rio mensal atual de um
+// funcion√°rio e o percentual de reajuste. Calcular e escrever o valor do novo
+// sal√°rio.
 // Autor(a)    : Giovanna Savoretti
 // Data atual  : 31/08/2026
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
    salario: real
    percentual: real
+   salarionovo: real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-   Escreva ("Digite o seu s·lario aqui: ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
+   Escreva ("Digite o seu s√°lario aqui: ")
    Leia (salario)
    Escreva ("Digite o percentual de reajuste: ")
    Leia (percentual)
-   salarionovo <- (salario * percentual) + salario
-   Escreval ("O seu novo sal·rio È: ", salario)
+   salarioNovo <- (salario * percentual) + salario
+   Escreval ("O seu novo sal√°rio √©: ", salarioNovo)
 
 Fimalgoritmo
