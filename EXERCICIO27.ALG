@@ -1,24 +1,24 @@
 Algoritmo "Exercicio27"
-// Disciplina   : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina   : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Jailson Santos
-// DescriÁ„o   : Ler um valor e escrever se È positivo, negativo ou zero
+// Descri√ß√£o   : Ler um valor e escrever se √© positivo, negativo ou zero
 // Autor(a)    : Giovanna Savoretti
 // Data atual  : 12/09/2026
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    numero: inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval ("Digite um n˙mero:" )
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval ("Digite um n√∫mero:" )
    Leia (numero)
-   Se numero > 1 entao
-      Escreval ("… um n˙mero positivo")
+   Se numero > 0 entao
+      Escreval ("√â um n√∫mero positivo")
    Senao
       Se numero < 0 entao
-         Escreval ("… um n˙mero negativo")
+         Escreval ("√â um n√∫mero negativo")
       Senao
-         Escreval ("N˙mero 0")
+         Escreval ("N√∫mero 0")
       Fimse
    Fimse
 
