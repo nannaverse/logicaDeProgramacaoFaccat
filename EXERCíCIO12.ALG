@@ -10,7 +10,6 @@ Var
    // Seção de Declarações das variáveis
    fahrenheit: real
    celsius: real
-   c: real
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
