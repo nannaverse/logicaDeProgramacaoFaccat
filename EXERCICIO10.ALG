@@ -1,28 +1,28 @@
 Algoritmo "Exercicio10"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : O custo de um carro novo ao consumidor È a soma do custo de
-// f·brica com a porcentagem do distribuidor e dos impostos (aplicados ao
-// custo de f·brica). Supondo que o percentual do distribuidor seja de 28% e
-// os impostos de 45%, escrever um algoritmo para ler o custo de f·brica
+// Descri√ß√£o   : O custo de um carro novo ao consumidor √© a soma do custo de
+// f√°brica com a porcentagem do distribuidor e dos impostos (aplicados ao
+// custo de f√°brica). Supondo que o percentual do distribuidor seja de 28% e
+// os impostos de 45%, escrever um algoritmo para ler o custo de f√°brica
 //de um carro, calcular e escrever o custo final ao consumidor.
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 03/09/2026
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
     distribuidor: real
     imposto: real
     carro: real
-    carronovo: real
+    carroNovo: real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-  Escreval ("Digite o valor de f·brica do carro: ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
+  Escreval ("Digite o valor de f√°brica do carro: ")
   Leia (carro)
   distribuidor<- carro*28/100
    imposto<- carro*45/100
-   carronovo<- imposto+distribuidor+carro
-  Escreval ("O valor dado a ser pago È: ", carronovo)
+   carroNovo<- imposto+distribuidor+carro
+  Escreval ("O valor dado a ser pago √©: ", carroNovo)
   
   
 
