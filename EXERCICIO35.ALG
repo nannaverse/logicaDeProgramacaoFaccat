@@ -1,47 +1,59 @@
 Algoritmo "Exercicio35"
-// Disciplina   : [Lógica de Programação com JavaScript]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Santos
-// Descrição   : Escreva um algoritmo que leia o número de litros vendidos
-// e o tipo de combustível (codificado da seguinte forma: A-álcool,
+// DescriÃ§Ã£o   : Escreva um algoritmo que leia o nÃºmero de litros vendidos
+// e o tipo de combustÃ­vel (codificado da seguinte forma: A-Ã¡lcool,
 // G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se
-// que o preço do litro da gasolina é R$ 3,30 e o preço do litro do
-// álcool é R$ 2,90.      nao pega
+// que o preÃ§o do litro da gasolina Ã© R$ 3,30 e o preÃ§o do litro do
+// Ã¡lcool Ã© R$ 2,90.    
 // Autor(a)    : Giovanna Savoretti
 // Data atual  : 12/09/2026
 Var
-   // Seção de Declarações das variáveis
-   combustivel: caracter
-   preco, valorTotal, litros: real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   combustivel: caractere
+   precoComDesconto, precoBase, valorTotal, litros, desconto: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval ("Venda de Combustíveis")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval ("Venda de CombustÃ­veis")
    Escreval ("---------------------")
-   Escreval ("Digite o número de litros vendidos: ")
+   Escreval ("Digite o nÃºmero de litros vendidos: ")
    Leia (litros)
-   Escreval ("Digite o tipo de combustível (A-álcool, G-gasolina): ")
+   Escreval ("Digite o tipo de combustÃ­vel (A-Ã¡lcool, G-gasolina): ")
    Leia (combustivel)
+
    Escolha combustivel
    Caso "A"
-      Se litros <= 20 entao
-         preco <- 2.90 * 0.03
+      precoBase <- 2.90
+
+      Se litros <= 20 Entao
+         desconto <- 0.03
       Senao
-         preco <- 2.90 * 0.05
+         desconto <- 0.05
       Fimse
-      valorTotal <- litros * preco
-      Escreval ("Valor a pagar (Álcool): R$ ", valorTotal)
+
+      precoComDesconto <- precoBase - (precoBase * desconto)
+      valorTotal <- litros * precoComDesconto
+
+      Escreval("Valor a pagar (Ãlcool): R$ ", valorTotal)
 
    Caso "G"
-      Se litros <= 20 entao
-         preco <- 3.30 * 0.04
-      Senao
-         preco <- 3.30 * 0.06
-      Fimse
-      valorTotal <- litros * preco
-      Escreval ("Valor a pagar (Gasolina): R$ ", valorTotal)
+      precoBase <- 3.30
 
+      Se litros <= 20 Entao
+         desconto <- 0.04
+      Senao
+         desconto <- 0.06
+      Fimse
+
+      precoComDesconto <- precoBase - (precoBase * desconto)
+      valorTotal <- litros * precoComDesconto
+
+      Escreval("Valor a pagar (Gasolina): R$ ", valorTotal)
+      
    Outrocaso
-      Escreval ("Tipo de combustível inválido!")
+      Escreval("Tipo de combustÃ­vel invÃ¡lido!")
    Fimescolha
+
 
 Fimalgoritmo
