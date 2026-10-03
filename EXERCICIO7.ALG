@@ -1,15 +1,17 @@
 Algoritmo "IdadeemDias"
-// Disciplina   : Lógica de Programação de JavaScript
+// Disciplina   : LÃ³gica de ProgramaÃ§Ã£o de JavaScript
 // Professor   : Jailson Costa
-// Descrição   : Calcula o numero do sucessor
+// DescriÃ§Ã£o   : FaÃ§a um algoritmo que leia a idade de uma pessoa expressa
+// em anos, meses e dias e escreva a idade dessa pessoa expressa apenas
+// em dias. Considerar ano com 365 dias e mÃªs com 30 dias
 // Autor(a)    : Giovanna Savoretti
 // Data atual  : 31/08/2026
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    anos, meses, dias, total: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
    Escreva ("Digite os anos: ")
    Leia (anos)
    Escreva ("Digite os meses: ")
@@ -17,6 +19,6 @@ Inicio
    Escreva ("Digite os dias: ")
    Leia (dias)
    total<- (anos*365)+ (meses*12)+ (dias*30)
-   Escreva ("A sua idade em dias é: ", total)
+   Escreva ("A sua idade em dias Ã©: ", total)
 
 Fimalgoritmo
